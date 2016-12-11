@@ -102,7 +102,7 @@
 	
 	<target name="execute.client" depends="compile">
 			<echo message="Executing client" />
-			<java classname="requests.R1" classpath="${build.dir}">
+			<java classname="introsde.document.main.Client" classpath="${build.dir}">
 				<classpath>
 					<fileset dir="${lib.dir}">
 						<include name="**/*.jar" />
